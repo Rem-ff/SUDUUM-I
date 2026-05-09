@@ -12,7 +12,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 export default function Home() {
   const { t, lang, dir } = useLanguage();
   const isAr = lang === 'ar';
-  const arFontClass = isAr ? "font-['Tajawal']" : "";
+  const arFontClass = isAr ? "font-['Noto_Naskh_Arabic']" : "";
 
   const whatWeDoIcons = [Users, MapPin, MessageCircle, BookOpen];
 

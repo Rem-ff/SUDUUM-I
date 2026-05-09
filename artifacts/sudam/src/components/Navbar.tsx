@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <a 
           href="#hero" 
-          className={`text-2xl font-bold tracking-widest text-primary ${lang === 'ar' ? 'font-[\'Tajawal\']' : ''}`}
+          className={`text-2xl font-bold tracking-widest text-primary ${lang === 'ar' ? "font-['Noto_Naskh_Arabic']" : ''}`}
           data-testid="link-logo"
         >
           {lang === 'ar' ? 'SUDAM / سُدم' : 'SUDAM'}
@@ -45,7 +45,7 @@ export function Navbar() {
             variant="outline" 
             size="sm" 
             onClick={toggleLanguage}
-            className={`rounded-full px-4 border-muted-foreground/30 hover:bg-muted/50 ${lang === 'en' ? 'font-[\'Tajawal\'] text-base' : ''}`}
+            className={`rounded-full px-4 border-muted-foreground/30 hover:bg-muted/50 ${lang === 'en' ? "font-['Noto_Naskh_Arabic'] text-base" : ''}`}
             data-testid="btn-lang-toggle"
           >
             <Globe className="w-4 h-4 mr-2 rtl:ml-2 rtl:mr-0" />
@@ -57,7 +57,7 @@ export function Navbar() {
             variant="outline" 
             size="sm" 
             onClick={toggleLanguage}
-            className={`rounded-full px-3 border-muted-foreground/30 hover:bg-muted/50 ${lang === 'en' ? 'font-[\'Tajawal\'] text-base' : ''}`}
+            className={`rounded-full px-3 border-muted-foreground/30 hover:bg-muted/50 ${lang === 'en' ? "font-['Noto_Naskh_Arabic'] text-base" : ''}`}
             data-testid="btn-lang-toggle-mobile"
           >
             <Globe className="w-4 h-4" />
