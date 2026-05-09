@@ -1,0 +1,174 @@
+استخدم هذا البرومبت في Replit كما هو:
+
+⸻
+
+PROMPT:
+
+Build a modern, premium, one-page bilingual website for a Saudi community initiative called:
+
+SUDUM (سُدم)
+
+⸻
+
+Project Overview
+
+SUDUM is a Saudi community initiative focused on bringing together people interested in space science and technology.
+
+It is NOT a company, NOT a platform, and NOT a content publisher yet.
+
+It is simply a community space that connects people, opportunities, and interest in the space field in Saudi Arabia.
+
+The website should clearly communicate that SUDUM is in its early stage as a community-building initiative.
+
+⸻
+
+Website Requirements
+
+1. Language Support
+
+* The website MUST be bilingual:
+    * Arabic (default)
+    * English (toggle button at top right)
+* Arabic is primary and fully RTL (right-to-left)
+* English version must be clean and natural (not machine translated feel)
+
+⸻
+
+2. Design Style
+
+* Modern, minimal, premium startup style
+* Dark space-inspired theme (navy, black, subtle gradients)
+* Elegant typography (Inter or similar)
+* Smooth animations (fade in, scroll effects)
+* Fully responsive (mobile-first)
+* Clean, professional, not cluttered
+
+⸻
+
+3. Branding
+
+* Name:
+    * Arabic: سُدم
+    * English: SUDUM
+* Use both names in header branding (SUDUM / سُدم)
+
+⸻
+
+4. Website Structure (Single Page)
+
+HERO SECTION
+
+* Title: SUDUM / سُدم
+* Subtitle (Arabic):
+    “مجتمع سعودي يجمع المهتمين بعلوم وتقنيات الفضاء”
+* Subtitle (English):
+    “A Saudi community bringing together people interested in space science and technology”
+* Short description (Arabic):
+    SUDUM is a community initiative that connects people interested in space, helps them discover opportunities, and builds a space for collaboration and communication in Saudi Arabia.
+* Buttons:
+    * Join Community
+    * Follow on X (Twitter)
+
+⸻
+
+ABOUT SECTION
+
+Arabic:
+
+SUDUM هي مبادرة مجتمعية تهدف إلى بناء مساحة تجمع الأشخاص المهتمين بمجال الفضاء داخل السعودية، وربطهم بالفرص والأشخاص والمسارات الموجودة في هذا القطاع.
+
+بدأت سُدم من فكرة بسيطة: أن الاهتمام بالفضاء موجود، لكن الوصول للمجال ما زال غير واضح، والمصادر والفرص متفرقة.
+
+لهذا نعمل على بناء مجتمع يجمع المهتمين في مكان واحد، ويخلق بيئة تساعد على التواصل، تبادل المعرفة، واكتشاف الفرص.
+
+⸻
+
+English:
+
+SUDUM is a community initiative designed to bring together people interested in space science and technology in Saudi Arabia.
+
+It started from a simple idea: interest in space exists, but access to the field is still unclear and fragmented.
+
+We aim to build a community that connects people, facilitates communication, and helps them discover opportunities in one place.
+
+⸻
+
+VISION SECTION
+
+Arabic:
+
+أن نساهم في بناء مجتمع فضائي سعودي أكثر ترابطًا ووضوحًا، يساعد الجيل القادم على الوصول إلى هذا المجال والمشاركة في مستقبله.
+
+English:
+
+To contribute to building a more connected and accessible Saudi space community that helps the next generation engage with and participate in the future of the space sector.
+
+⸻
+
+WHAT WE DO (COMMUNITY FOCUS)
+
+Arabic bullets:
+
+* مجتمع يجمع المهتمين بمجال الفضاء
+* نقطة تجمع للفرص والمبادرات
+* مساحة للتواصل بين المهتمين
+* بيئة للنقاش والتعلم
+
+English:
+
+* A community for space enthusiasts
+* A hub for opportunities and initiatives
+* A space for communication and networking
+* A place for discussion and learning
+
+⸻
+
+COMMUNITY STATUS NOTICE
+
+Add a highlighted section:
+
+Arabic:
+
+SUDUM حاليًا في مرحلته الأولى كمجتمع، ويهدف إلى النمو التدريجي وتوسيع تأثيره مستقبلًا.
+
+English:
+
+SUDUM is currently in its early stage as a community initiative, with plans for gradual growth and future expansion.
+
+⸻
+
+CONTACT SECTION
+
+Include:
+
+* X (Twitter)
+* WhatsApp Community
+* Email
+
+Simple contact layout with clean icons.
+
+⸻
+
+FOOTER
+
+* SUDUM / سُدم
+* Community initiative in Saudi Arabia focused on space science
+* Not a company or official organization
+
+⸻
+
+Extra Instructions for Developer
+
+* Keep everything in ONE page (no multi-page)
+* Add language toggle (Arabic / English)
+* Arabic must be RTL properly
+* Use smooth scrolling navigation
+* Add subtle space-themed background (stars, gradients, soft glow)
+* Keep UI premium but minimal
+* No complex backend, no login system
+* Focus on clarity and strong branding
+* Make it feel like a startup landing page, not a blog or forum
+
+⸻
+
+If anything is unclear, prioritize simplicity and professionalism over complexity.
