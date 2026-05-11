@@ -10,7 +10,7 @@ export const translations = {
 
     // Hero
     title: "سُدم",
-    titleEn: "SUDAM",
+    titleEn: "SUDUUM",
     subtitle: "نحو جيل سعودي أقرب إلى قطاع الفضاء",
     heroDesc: "سُدم مبادرة سعودية تهدف إلى تعزيز الوصول إلى قطاع الفضاء عبر بناء مساحة تربط المهتمين بالمجال، وتسلّط الضوء على الفرص، المبادرات، والمستجدات المرتبطة بعلوم وتقنيات الفضاء.",
     joinBtn: "انضم إلى المجتمع",
@@ -74,19 +74,19 @@ export const translations = {
     langToggle: "عربي",
 
     // Hero
-    title: "SUDUM",
-    titleEn: "SUDUM",
+    title: "SUDUUM",
+    titleEn: "SUDUUM",
     subtitle: "Building stronger access to the future of space",
-    heroDesc: "SUDUM is a Saudi initiative focused on strengthening access to the space sector by connecting people with opportunities, initiatives, and developments related to space science and technology.",
-    joinBtn: "Join SUDUM",
+    heroDesc: "SUDUUM is a Saudi initiative focused on strengthening access to the space sector by connecting people with opportunities, initiatives, and developments related to space science and technology.",
+    joinBtn: "Join SUDUUM",
     followBtn: "Follow on X",
     scrollDown: "Discover more",
 
     // About
-    aboutTitle: "About SUDUM",
+    aboutTitle: "About SUDUUM",
     aboutSubtitle: "A Saudi initiative strengthening access to the space sector",
-    aboutP1: "As the space sector continues to grow rapidly, SUDUM aims to contribute to a more connected and accessible environment for those interested in the field by highlighting opportunities, initiatives, and pathways related to space science and technology.",
-    aboutP2: "SUDUM seeks to create a space where ambition, curiosity, and future-oriented thinking come together.",
+    aboutP1: "As the space sector continues to grow rapidly, SUDUUM aims to contribute to a more connected and accessible environment for those interested in the field by highlighting opportunities, initiatives, and pathways related to space science and technology.",
+    aboutP2: "SUDUUM seeks to create a space where ambition, curiosity, and future-oriented thinking come together.",
     aboutP3: "",
     aboutBadge: "Long-term vision",
     aboutTags: ["Opportunities", "Initiatives", "Pathways", "Developments"],
@@ -96,7 +96,7 @@ export const translations = {
     visionText: "Contributing to a more connected and informed Saudi space ecosystem while enabling the next generation to access opportunities, knowledge, and pathways within the evolving space sector.",
 
     // What We Highlight
-    whatTitle: "What SUDUM Highlights",
+    whatTitle: "What SUDUUM Highlights",
     whatSubtitle: "Connecting you with what matters in the space sector.",
     whatItems: [
       { title: "Opportunities & Initiatives", desc: "Space-related opportunities and initiatives" },
@@ -111,7 +111,7 @@ export const translations = {
 
     // Contact
     contactTitle: "Get in Touch",
-    contactDesc: "Follow SUDUM or reach out directly.",
+    contactDesc: "Follow SUDUUM or reach out directly.",
     whatsapp: "WhatsApp Community",
     email: "Email",
     nameLabel: "Name",
@@ -125,8 +125,8 @@ export const translations = {
     contactEmail: "hello@sudam.space",
 
     // Footer
-    footerTitle: "SUDUM",
+    footerTitle: "SUDUUM",
     footerDesc: "A Saudi initiative strengthening access to the space sector",
-    footerDisclaimer: "SUDUM is an independent initiative and is not a governmental or official space agency.",
+    footerDisclaimer: "SUDUUM is an independent initiative and is not a governmental or official space agency.",
   },
 };

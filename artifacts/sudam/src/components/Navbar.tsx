@@ -36,7 +36,7 @@ export function Navbar() {
           {isAr ? (
              <><span className="text-primary text-xl">✦</span> سُدم</>
           ) : (
-             <><span className="text-primary text-xl">✦</span> SUDAM</>
+             <><span className="text-primary text-xl">✦</span> SUDUUM</>
           )}
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
