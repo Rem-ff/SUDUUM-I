@@ -20,6 +20,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = dir;
+    if (lang === "ar") {
+      document.documentElement.style.setProperty("--app-font-sans", "'SaudiFont', sans-serif");
+    } else {
+      document.documentElement.style.setProperty("--app-font-sans", "'Inter', sans-serif");
+    }
   }, [lang, dir]);
 
   const t = (key: keyof typeof translations.ar) => {
