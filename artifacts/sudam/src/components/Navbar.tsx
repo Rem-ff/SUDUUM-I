@@ -30,7 +30,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <a 
           href="#hero" 
-          className={`text-2xl font-bold tracking-widest flex items-center gap-2 ${isAr ? "font-['Noto_Naskh_Arabic']" : ''}`}
+          className={`text-2xl font-bold tracking-widest flex items-center gap-2 ${isAr ? "font-['SaudiFont']" : ''}`}
           data-testid="link-logo"
         >
           {isAr ? (
@@ -54,7 +54,7 @@ export function Navbar() {
             variant="outline" 
             size="sm" 
             onClick={toggleLanguage}
-            className={`rounded-full px-4 border-muted-foreground/30 hover:bg-muted/50 ${!isAr ? "font-['Noto_Naskh_Arabic'] text-base" : ''}`}
+            className={`rounded-full px-4 border-muted-foreground/30 hover:bg-muted/50 ${!isAr ? "font-['SaudiFont'] text-base" : ''}`}
             data-testid="btn-lang-toggle"
           >
             <Globe className="w-4 h-4 mr-2 rtl:ml-2 rtl:mr-0" />
