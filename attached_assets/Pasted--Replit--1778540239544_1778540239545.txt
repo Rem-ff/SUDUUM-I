@@ -1,0 +1,151 @@
+اكتب هذا بدل الوصف القديم بالكامل في برومبت Replit.
+هذا يخلي سُدم يبان كـ **كيان عنده رؤية وهوية** مو مجرد “مجتمع هواة”، وفي نفس الوقت بدون كذب أو مبالغة.
+
+---
+
+# BRAND DIRECTION
+
+SUDUM should feel like a modern Saudi space initiative with a long-term vision, not a casual online community and not a governmental entity.
+
+The tone of the website must feel:
+
+* ambitious
+* modern
+* intelligent
+* minimal
+* future-oriented
+* credible
+
+Avoid language that makes SUDUM sound small, temporary, or amateur.
+
+Do NOT describe SUDUM as:
+
+* “just a community”
+* “fan page”
+* “space club”
+* “early stage hobby project”
+
+Instead, position SUDUM as:
+“A growing Saudi initiative focused on building a more connected and accessible space ecosystem.”
+
+The website should create the feeling that SUDUM is building toward something bigger in the future.
+
+---
+
+# REPLACE ALL PREVIOUS DESCRIPTIONS WITH THIS
+
+## HERO SECTION
+
+### Arabic Main Title:
+
+سُدم
+
+### English Main Title:
+
+SUDUM
+
+### Arabic Subtitle:
+
+نحو جيل سعودي أقرب إلى قطاع الفضاء
+
+### English Subtitle:
+
+Building stronger access to the future of space
+
+### Arabic Description:
+
+سُدم مبادرة سعودية تهدف إلى تعزيز الوصول إلى قطاع الفضاء عبر بناء مساحة تربط المهتمين بالمجال، وتسلّط الضوء على الفرص، المبادرات، والمستجدات المرتبطة بعلوم وتقنيات الفضاء.
+
+### English Description:
+
+SUDUM is a Saudi initiative focused on strengthening access to the space sector by connecting people with opportunities, initiatives, and developments related to space science and technology.
+
+---
+
+# ABOUT SECTION
+
+### Arabic:
+
+في ظل النمو المتسارع لقطاع الفضاء، تعمل سُدم على المساهمة في بناء بيئة أكثر ترابطًا ووضوحًا للمهتمين بالمجال، عبر تسهيل الوصول إلى الفرص، وتسليط الضوء على المبادرات والمسارات المرتبطة بعلوم وتقنيات الفضاء.
+
+تسعى سُدم إلى خلق مساحة تجمع الطموح، المعرفة، والاهتمام بالمجال ضمن رؤية مستقبلية طويلة المدى.
+
+### English:
+
+As the space sector continues to grow rapidly, SUDUM aims to contribute to a more connected and accessible environment for those interested in the field by highlighting opportunities, initiatives, and pathways related to space science and technology.
+
+SUDUM seeks to create a space where ambition, curiosity, and future-oriented thinking come together.
+
+---
+
+# VISION SECTION
+
+### Arabic:
+
+المساهمة في بناء بيئة سعودية أكثر وعيًا وترابطًا بقطاع الفضاء، وتمكين الجيل القادم من الوصول إلى المعرفة والفرص والمسارات المرتبطة بهذا المجال المتطور.
+
+### English:
+
+Contributing to a more connected and informed Saudi space ecosystem while enabling the next generation to access opportunities, knowledge, and pathways within the evolving space sector.
+
+---
+
+# WHAT SUDUM HIGHLIGHTS
+
+### Arabic:
+
+* الفرص والمبادرات المرتبطة بقطاع الفضاء
+* المسابقات والفعاليات
+* المستجدات والتطورات في المجال
+* المسارات والاهتمامات المرتبطة بعلوم وتقنيات الفضاء
+
+### English:
+
+* Space-related opportunities and initiatives
+* Competitions and events
+* Industry developments and updates
+* Pathways connected to space science and technology
+
+---
+
+# IMPORTANT BRAND RULES
+
+* The website must NOT say:
+
+  * “We are currently just a community”
+  * “Not a company”
+  * “Early-stage project”
+  * “Small initiative”
+
+* The tone should feel refined and visionary.
+
+* Keep the language concise and premium.
+
+* Make SUDUM feel like the beginning of a future Saudi space movement.
+
+* Focus on identity, direction, and credibility.
+
+* Avoid exaggerated corporate language.
+
+* Keep everything elegant and minimal.
+
+---
+
+# VISUAL FEELING
+
+The website should emotionally feel like:
+
+* future Saudi innovation
+* space ambition
+* intelligence
+* calm confidence
+* modern Saudi identity
+
+Not like:
+
+* a student club
+* a forum
+* a blog
+* a fan community
+
+---

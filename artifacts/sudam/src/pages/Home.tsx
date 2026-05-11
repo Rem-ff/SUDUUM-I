@@ -13,7 +13,7 @@ export default function Home() {
   const isAr = lang === 'ar';
   const arFontClass = isAr ? "font-['SaudiFont']" : "";
 
-  const whatWeDoIcons = [Trophy, BookOpen, Lightbulb, Newspaper, CalendarDays];
+  const whatWeDoIcons = [Trophy, CalendarDays, Newspaper, Lightbulb];
 
   return (
     <div className={`min-h-screen text-foreground bg-background selection:bg-primary selection:text-primary-foreground font-sans ${arFontClass}`} dir={dir}>
@@ -190,28 +190,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Community Status Banner */}
-      <section className="py-12 px-6 md:px-12">
-        <div className="container mx-auto max-w-4xl">
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true }}
-            className="bg-gradient-to-r from-primary/10 via-background to-primary/10 border border-primary/20 rounded-2xl p-8 relative overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-primary/5 blur-2xl pointer-events-none" />
-            <div className="relative z-10 flex flex-col md:flex-row items-center gap-6 text-center md:text-start">
-              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mx-auto md:mx-0">
-                <Info className="w-8 h-8 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-white mb-2">{t('statusTitle')}</h3>
-                <p className="text-muted-foreground leading-relaxed">{t('statusText')}</p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-24 px-6 md:px-12 bg-muted/20 border-y border-border">

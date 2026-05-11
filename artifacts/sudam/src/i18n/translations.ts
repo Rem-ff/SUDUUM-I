@@ -11,43 +11,42 @@ export const translations = {
     // Hero
     title: "سُدم",
     titleEn: "SUDAM",
-    subtitle: "مجتمع سعودي لعلوم الفضاء",
-    heroDesc: "سُدم مبادرة مجتمعية تربط المهتمين بالفضاء، وتساعدهم على اكتشاف الفرص، وتبني مساحة للتعاون والتواصل في المملكة العربية السعودية.",
+    subtitle: "نحو جيل سعودي أقرب إلى قطاع الفضاء",
+    heroDesc: "سُدم مبادرة سعودية تهدف إلى تعزيز الوصول إلى قطاع الفضاء عبر بناء مساحة تربط المهتمين بالمجال، وتسلّط الضوء على الفرص، المبادرات، والمستجدات المرتبطة بعلوم وتقنيات الفضاء.",
     joinBtn: "انضم إلى المجتمع",
     followBtn: "تابعنا على X",
     scrollDown: "اكتشف المزيد",
 
     // About
     aboutTitle: "عن سُدم",
-    aboutSubtitle: "مبادرة مجتمعية سعودية تربط المهتمين بمجال الفضاء",
-    aboutP1: "SUDAM هي مبادرة مجتمعية تهدف إلى بناء مساحة تجمع الأشخاص المهتمين بمجال الفضاء داخل السعودية، وربطهم بالفرص والأشخاص والمسارات الموجودة في هذا القطاع.",
-    aboutP2: "بدأت سُدم من فكرة بسيطة: أن الاهتمام بالفضاء موجود، لكن الوصول للمجال ما زال غير واضح، والمصادر والفرص متفرقة.",
-    aboutP3: "لهذا نعمل على بناء مجتمع يجمع المهتمين في مكان واحد، ويخلق بيئة تساعد على التواصل، تبادل المعرفة، واكتشاف الفرص.",
-    aboutBadge: "مجتمع، ليس شركة",
-    aboutTags: ["المعرفة","المجتمع","المصادر","الفرص"],
+    aboutSubtitle: "مبادرة سعودية لتعزيز الوصول إلى قطاع الفضاء",
+    aboutP1: "في ظل النمو المتسارع لقطاع الفضاء، تعمل سُدم على المساهمة في بناء بيئة أكثر ترابطًا ووضوحًا للمهتمين بالمجال، عبر تسهيل الوصول إلى الفرص، وتسليط الضوء على المبادرات والمسارات المرتبطة بعلوم وتقنيات الفضاء.",
+    aboutP2: "تسعى سُدم إلى خلق مساحة تجمع الطموح، المعرفة، والاهتمام بالمجال ضمن رؤية مستقبلية طويلة المدى.",
+    aboutP3: "",
+    aboutBadge: "رؤية مستقبلية طويلة المدى",
+    aboutTags: ["الفرص", "المبادرات", "المسارات", "المستجدات"],
 
     // Vision
     visionTitle: "رؤيتنا",
-    visionText: "أن نساهم في بناء مجتمع فضائي سعودي أكثر ترابطًا ووضوحًا، يساعد الجيل القادم على الوصول إلى هذا المجال والمشاركة في مستقبله.",
+    visionText: "المساهمة في بناء بيئة سعودية أكثر وعيًا وترابطًا بقطاع الفضاء، وتمكين الجيل القادم من الوصول إلى المعرفة والفرص والمسارات المرتبطة بهذا المجال المتطور.",
 
-    // What We Do
-    whatTitle: "ما نقدمه",
-    whatSubtitle: "نبني مجتمعًا حول اهتمام واحد: الفضاء.",
+    // What We Highlight
+    whatTitle: "ما تسلّط عليه سُدم الضوء",
+    whatSubtitle: "نربطك بما يهمّ في قطاع الفضاء.",
     whatItems: [
-      { title: "فرص ومسابقات", desc: "تشمل المنح وفرص العمل والمسابقات في مجال الفضاء" },
-      { title: "موارد تعليمية", desc: "مقررات وكتب وتقارير متعلقة بمجال الفضاء" },
-      { title: "محتوى تثقيفي", desc: "محتوى بسيط وشامل حول قطاع الفضاء" },
-      { title: "أخبار الفضاء", desc: "آخر المستجدات والأحداث في عالم الفضاء" },
-      { title: "فعاليات وألعاب", desc: "فعاليات وندوات ومسابقات في مجال الفضاء" },
+      { title: "الفرص والمبادرات", desc: "الفرص والمبادرات المرتبطة بقطاع الفضاء" },
+      { title: "المسابقات والفعاليات", desc: "المسابقات والفعاليات في مجال الفضاء" },
+      { title: "المستجدات والتطورات", desc: "المستجدات والتطورات في المجال" },
+      { title: "المسارات والاهتمامات", desc: "المسارات والاهتمامات المرتبطة بعلوم وتقنيات الفضاء" },
     ],
 
-    // Status notice
-    statusTitle: "مرحلتنا الحالية",
-    statusText: "SUDAM حاليًا في مرحلته الأولى كمجتمع، ويهدف إلى النمو التدريجي وتوسيع تأثيره مستقبلًا.",
+    // Status notice — removed per brand direction
+    statusTitle: "",
+    statusText: "",
 
     // Contact
     contactTitle: "تواصل معنا",
-    contactDesc: "انضم إلى مجتمع SUDAM المتنامي. تابعنا، تواصل معنا، أو انضم إلى النقاش.",
+    contactDesc: "نسعد بتواصلك. تابع سُدم على منصاتنا أو راسلنا مباشرة.",
     whatsapp: "مجتمع واتساب",
     email: "البريد الإلكتروني",
     nameLabel: "الاسم",
@@ -62,58 +61,57 @@ export const translations = {
 
     // Footer
     footerTitle: "سُدم",
-    footerDesc: "مبادرة مجتمعية في المملكة العربية السعودية تُعنى بعلوم الفضاء",
-    footerDisclaimer: "SUDAM مبادرة مجتمعية مستقلة وليست جهة حكومية أو وكالة فضائية رسمية.",
+    footerDesc: "مبادرة سعودية لتعزيز الوصول إلى قطاع الفضاء",
+    footerDisclaimer: "سُدم مبادرة مستقلة وليست جهة حكومية أو وكالة فضائية رسمية.",
   },
   en: {
     // Nav
     homeNav: "Home",
     about: "About",
     vision: "Vision",
-    whatWeDo: "What We Offer",
+    whatWeDo: "What We Do",
     contact: "Contact",
     langToggle: "عربي",
 
     // Hero
-    title: "SUDAM",
-    titleEn: "SUDAM",
-    subtitle: "A Saudi community for space science",
-    heroDesc: "SUDAM is a community initiative that connects people interested in space, helps them discover opportunities, and builds a space for collaboration and communication in Saudi Arabia.",
-    joinBtn: "Join Community",
+    title: "SUDUM",
+    titleEn: "SUDUM",
+    subtitle: "Building stronger access to the future of space",
+    heroDesc: "SUDUM is a Saudi initiative focused on strengthening access to the space sector by connecting people with opportunities, initiatives, and developments related to space science and technology.",
+    joinBtn: "Join SUDUM",
     followBtn: "Follow on X",
     scrollDown: "Discover more",
 
     // About
-    aboutTitle: "About SUDAM",
-    aboutSubtitle: "A Saudi community initiative connecting space enthusiasts",
-    aboutP1: "SUDAM is a community initiative designed to bring together people interested in space science and technology in Saudi Arabia.",
-    aboutP2: "It started from a simple idea: interest in space exists, but access to the field is still unclear and fragmented.",
-    aboutP3: "We aim to build a community that connects people, facilitates communication, and helps them discover opportunities in one place.",
-    aboutBadge: "A community, not a company",
-    aboutTags: ["Knowledge","Community","Resources","Opportunities"],
+    aboutTitle: "About SUDUM",
+    aboutSubtitle: "A Saudi initiative strengthening access to the space sector",
+    aboutP1: "As the space sector continues to grow rapidly, SUDUM aims to contribute to a more connected and accessible environment for those interested in the field by highlighting opportunities, initiatives, and pathways related to space science and technology.",
+    aboutP2: "SUDUM seeks to create a space where ambition, curiosity, and future-oriented thinking come together.",
+    aboutP3: "",
+    aboutBadge: "Long-term vision",
+    aboutTags: ["Opportunities", "Initiatives", "Pathways", "Developments"],
 
     // Vision
     visionTitle: "Our Vision",
-    visionText: "To contribute to building a more connected and accessible Saudi space community that helps the next generation engage with and participate in the future of the space sector.",
+    visionText: "Contributing to a more connected and informed Saudi space ecosystem while enabling the next generation to access opportunities, knowledge, and pathways within the evolving space sector.",
 
-    // What We Do
-    whatTitle: "What We Offer",
-    whatSubtitle: "Building a community around one shared interest: space.",
+    // What We Highlight
+    whatTitle: "What SUDUM Highlights",
+    whatSubtitle: "Connecting you with what matters in the space sector.",
     whatItems: [
-      { title: "Opportunities", desc: "Grants, jobs, and competitions in the space field" },
-      { title: "Learning Resources", desc: "Courses, books, and space-related reports" },
-      { title: "Educational Content", desc: "Simple, comprehensive content about the space sector" },
-      { title: "Space News", desc: "Latest updates and events in the space world" },
-      { title: "Events & Competitions", desc: "Events, seminars, and space competitions" },
+      { title: "Opportunities & Initiatives", desc: "Space-related opportunities and initiatives" },
+      { title: "Competitions & Events", desc: "Competitions and events in the space field" },
+      { title: "Industry Developments", desc: "Industry developments and updates" },
+      { title: "Pathways & Interests", desc: "Pathways connected to space science and technology" },
     ],
 
-    // Status notice
-    statusTitle: "Our Current Stage",
-    statusText: "SUDAM is currently in its early stage as a community initiative, with plans for gradual growth and future expansion.",
+    // Status notice — removed per brand direction
+    statusTitle: "",
+    statusText: "",
 
     // Contact
     contactTitle: "Get in Touch",
-    contactDesc: "Join our growing community. Follow us, reach out, or join the conversation.",
+    contactDesc: "Follow SUDUM or reach out directly.",
     whatsapp: "WhatsApp Community",
     email: "Email",
     nameLabel: "Name",
@@ -127,8 +125,8 @@ export const translations = {
     contactEmail: "hello@sudam.space",
 
     // Footer
-    footerTitle: "SUDAM",
-    footerDesc: "Community initiative in Saudi Arabia focused on space science",
-    footerDisclaimer: "SUDAM is an independent community initiative and is not a governmental or official space agency.",
+    footerTitle: "SUDUM",
+    footerDesc: "A Saudi initiative strengthening access to the space sector",
+    footerDisclaimer: "SUDUM is an independent initiative and is not a governmental or official space agency.",
   },
 };
