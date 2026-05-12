@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "x3msjDYXW9PKGFvcSTA5e"
+uri = "file://artifacts/sudam-brand/public/cover-space.png"
+type = "image"
+title = "generated_image"

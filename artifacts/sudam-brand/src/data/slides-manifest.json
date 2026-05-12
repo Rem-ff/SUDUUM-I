@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567801",
+    "position": 1,
+    "filepath": "src/pages/slides/Slide1Cover.tsx",
+    "title": "الغلاف / Cover",
+    "description": "SUDUUM visual identity guide cover",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567802",
+    "position": 2,
+    "filepath": "src/pages/slides/Slide2Overview.tsx",
+    "title": "نبذة عن سُدم / Brand Overview",
+    "description": "What SUDUUM is — mission and positioning",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567803",
+    "position": 3,
+    "filepath": "src/pages/slides/Slide3Wordmark.tsx",
+    "title": "الاسم والشعار / Name & Wordmark",
+    "description": "Arabic and English wordmark usage",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567804",
+    "position": 4,
+    "filepath": "src/pages/slides/Slide4Colors.tsx",
+    "title": "الألوان الرسمية / Color Palette",
+    "description": "Official brand color swatches with hex values",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567805",
+    "position": 5,
+    "filepath": "src/pages/slides/Slide5Typography.tsx",
+    "title": "الخطوط الرسمية / Typography",
+    "description": "Arabic and English typeface system",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567806",
+    "position": 6,
+    "filepath": "src/pages/slides/Slide6Elements.tsx",
+    "title": "عناصر التصميم / Design Elements",
+    "description": "Star motif, gradients, and starfield pattern",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567807",
+    "position": 7,
+    "filepath": "src/pages/slides/Slide7Voice.tsx",
+    "title": "الصوت العلامي / Brand Voice",
+    "description": "Brand tone, values, and language guidelines",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567808",
+    "position": 8,
+    "filepath": "src/pages/slides/Slide8Closing.tsx",
+    "title": "الختام / Closing",
+    "description": "Branded closing slide",
+    "speakerNotes": ""
+  }
+]
