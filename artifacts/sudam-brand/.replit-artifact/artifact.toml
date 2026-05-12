@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/sudam-brand/"
+title = "SUDUUM Visual Identity"
+version = "1.0.0"
+id = "artifacts/sudam-brand"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/sudam-brand/" ]
+localPort = 22908
+
+[services.development]
+run = "pnpm --filter @workspace/sudam-brand run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sudam-brand", "run", "build" ]
+publicDir = "artifacts/sudam-brand/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22908"
+BASE_PATH = "/sudam-brand/"
