@@ -19,7 +19,7 @@ export default function Slide4Colors() {
               <p className="font-body text-[1.6vw] text-[#C4A8F0]">Primary Violet</p>
               <p
                 className="text-[1.5vw] text-[#6B6880]"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 البنفسجي الأساسي
               </p>
@@ -33,7 +33,7 @@ export default function Slide4Colors() {
               <p className="font-body text-[1.6vw] text-[#C4A8F0]">Space Black</p>
               <p
                 className="text-[1.5vw] text-[#6B6880]"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 الخلفية الداكنة
               </p>
@@ -47,7 +47,7 @@ export default function Slide4Colors() {
               <p className="font-body text-[1.6vw] text-[#C4A8F0]">Off White</p>
               <p
                 className="text-[1.5vw] text-[#6B6880]"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 النص الأساسي
               </p>
@@ -61,7 +61,7 @@ export default function Slide4Colors() {
               <p className="font-body text-[1.6vw] text-[#C4A8F0]">Lavender</p>
               <p
                 className="text-[1.5vw] text-[#6B6880]"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 اللون الثانوي
               </p>
@@ -75,7 +75,7 @@ export default function Slide4Colors() {
               <p className="font-body text-[1.6vw] text-[#C4A8F0]">Stone</p>
               <p
                 className="text-[1.5vw] text-[#6B6880]"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 النص الثانوي
               </p>

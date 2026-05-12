@@ -14,30 +14,28 @@ export default function Slide5Typography() {
         <div className="flex gap-[4vw] flex-1 pb-[4vh]">
           <div className="flex flex-col flex-1 border-t border-[#8B57E0]/30 pt-[3vh]">
             <p className="font-body text-[1.5vw] text-[#8B57E0] tracking-widest uppercase mb-[2vh]">Arabic — العربية</p>
-            <p className="text-[1.6vw] text-[#6B6880] mb-[3vh]" style={{ fontFamily: "Cairo, sans-serif" }}>
-              Saudi National Font
-            </p>
+            <p className="font-body text-[1.6vw] text-[#6B6880] mb-[3vh]">Saudi National Font</p>
             <p
               className="text-[7vw] font-bold text-[#F5F3FF] leading-none mb-[3vh]"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               سُدم
             </p>
             <p
               className="text-[3vw] font-bold text-[#C4A8F0] leading-snug mb-[2vh]"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               قطاع الفضاء
             </p>
             <p
               className="text-[2vw] text-[#F5F3FF]/70 leading-relaxed"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               مبادرة سعودية تهدف إلى تعزيز الوصول
             </p>
             <p
               className="text-[2vw] text-[#F5F3FF]/70 leading-relaxed"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               إلى قطاع الفضاء وعلومه وتقنياته.
             </p>

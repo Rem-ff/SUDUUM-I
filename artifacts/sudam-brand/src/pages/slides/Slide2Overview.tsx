@@ -12,7 +12,7 @@ export default function Slide2Overview() {
 
           <h2
             className="text-[4.5vw] font-bold text-[#F5F3FF] leading-tight mb-[3vh]"
-            style={{ fontFamily: "Cairo, sans-serif", direction: "rtl", textAlign: "right" }}
+            style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl", textAlign: "right" }}
           >
             مبادرة سعودية تعزّز الوصول إلى قطاع الفضاء
           </h2>
@@ -25,7 +25,7 @@ export default function Slide2Overview() {
 
           <p
             className="text-[1.8vw] text-[#F5F3FF]/55 leading-relaxed"
-            style={{ fontFamily: "Cairo, sans-serif", direction: "rtl", textAlign: "right" }}
+            style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl", textAlign: "right" }}
           >
             سُدم تربط المهتمين بالمجال بالفرص والمبادرات والمستجدات في علوم وتقنيات الفضاء.
           </p>
@@ -36,7 +36,7 @@ export default function Slide2Overview() {
             <p className="font-body text-[1.5vw] text-[#8B57E0] mb-[1vh] tracking-wide">المجال / Domain</p>
             <p
               className="text-[2.2vw] font-bold text-[#F5F3FF]"
-              style={{ fontFamily: "Cairo, sans-serif" }}
+              style={{ fontFamily: "SaudiFont, sans-serif" }}
             >
               قطاع الفضاء
             </p>
@@ -47,7 +47,7 @@ export default function Slide2Overview() {
             <p className="font-body text-[1.5vw] text-[#8B57E0] mb-[1vh] tracking-wide">المنشأ / Origin</p>
             <p
               className="text-[2.2vw] font-bold text-[#F5F3FF]"
-              style={{ fontFamily: "Cairo, sans-serif" }}
+              style={{ fontFamily: "SaudiFont, sans-serif" }}
             >
               المملكة العربية السعودية
             </p>

@@ -24,7 +24,7 @@ export default function Slide6Elements() {
             </div>
             <p
               className="text-[1.5vw] text-[#6B6880] mt-[2vh]"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               رمز النجمة — علامة التعرف
             </p>
@@ -58,7 +58,7 @@ export default function Slide6Elements() {
             </div>
             <p
               className="text-[1.5vw] text-[#6B6880] mt-[2vh]"
-              style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+              style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
             >
               خلفية نجمية متحركة — Canvas
             </p>

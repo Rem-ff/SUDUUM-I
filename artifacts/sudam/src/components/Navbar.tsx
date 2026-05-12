@@ -3,6 +3,37 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState, useEffect } from "react";
 
+function OrbitalLogoMark() {
+  return (
+    <svg
+      viewBox="0 0 220 55"
+      className="h-9 w-auto"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label="SUDUUM"
+    >
+      <g transform="rotate(-8, 110, 26)">
+        <ellipse cx="110" cy="26" rx="106" ry="21" stroke="#8B57E0" strokeWidth="1.3"/>
+        <line x1="216" y1="20" x2="216" y2="32" stroke="#C4A8F0" strokeWidth="1.3"/>
+        <line x1="210" y1="26" x2="222" y2="26" stroke="#C4A8F0" strokeWidth="1.3"/>
+        <circle cx="216" cy="26" r="2.5" fill="#8B57E0"/>
+      </g>
+      <text
+        x="110"
+        y="33"
+        textAnchor="middle"
+        fill="#F5F3FF"
+        fontFamily="Syne, system-ui, sans-serif"
+        fontWeight="800"
+        fontSize="22"
+        letterSpacing="3"
+      >
+        SUDUUM
+      </text>
+    </svg>
+  );
+}
+
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const { lang, setLang, t, dir } = useLanguage();
@@ -28,15 +59,17 @@ export function Navbar() {
       dir={dir}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a 
-          href="#hero" 
-          className={`text-2xl font-bold tracking-widest flex items-center gap-2 ${isAr ? "font-['SaudiFont']" : ''}`}
+        <a
+          href="#hero"
+          className="flex items-center gap-2"
           data-testid="link-logo"
         >
           {isAr ? (
-             <><span className="text-primary text-xl">✦</span> سُدم</>
+            <span className="text-2xl font-bold tracking-widest font-['SaudiFont'] flex items-center gap-2">
+              <span className="text-primary text-xl">✦</span> سُدم
+            </span>
           ) : (
-             <><span className="text-primary text-xl">✦</span> SUDUUM</>
+            <OrbitalLogoMark />
           )}
         </a>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
@@ -45,14 +78,14 @@ export function Navbar() {
           <a href="#vision" className="hover:text-primary transition-colors" data-testid="link-vision">{t('vision')}</a>
           <a href="#what-we-do" className="hover:text-primary transition-colors" data-testid="link-what-we-do">{t('whatWeDo')}</a>
           <a href="#contact" className="hover:text-primary transition-colors" data-testid="link-contact">{t('contact')}</a>
-          
+
           <Button asChild size="sm" className="rounded-full px-5 text-sm" data-testid="btn-nav-join">
             <a href="#contact">{t('joinBtn')}</a>
           </Button>
 
-          <Button 
-            variant="outline" 
-            size="sm" 
+          <Button
+            variant="outline"
+            size="sm"
             onClick={toggleLanguage}
             className={`rounded-full px-4 border-muted-foreground/30 hover:bg-muted/50 ${!isAr ? "font-['SaudiFont'] text-base" : ''}`}
             data-testid="btn-lang-toggle"
@@ -62,11 +95,11 @@ export function Navbar() {
           </Button>
         </div>
         <div className="md:hidden flex items-center gap-4">
-          <Button 
-            variant="outline" 
-            size="sm" 
+          <Button
+            variant="outline"
+            size="sm"
             onClick={toggleLanguage}
-            className={`rounded-full px-3 border-muted-foreground/30 hover:bg-muted/50 ${!isAr ? "font-['Noto_Naskh_Arabic'] text-base" : ''}`}
+            className={`rounded-full px-3 border-muted-foreground/30 hover:bg-muted/50 ${!isAr ? "font-['SaudiFont'] text-base" : ''}`}
             data-testid="btn-lang-toggle-mobile"
           >
             <Globe className="w-4 h-4" />

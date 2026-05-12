@@ -10,7 +10,7 @@ export default function Slide7Voice() {
           </p>
           <h2
             className="text-[5vw] font-bold text-[#F5F3FF] leading-tight mb-[2vh]"
-            style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+            style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
           >
             الصوت العلامي
           </h2>
@@ -19,7 +19,7 @@ export default function Slide7Voice() {
           </h3>
           <p
             className="text-[1.8vw] text-[#F5F3FF]/60 leading-relaxed"
-            style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+            style={{ fontFamily: "SaudiFont, sans-serif", direction: "rtl" }}
           >
             سُدم تتحدث بثقة وطموح. نحن نعكس تطلعات جيل سعودي يرى الفضاء وجهةً قابلة للوصول.
           </p>
@@ -31,7 +31,7 @@ export default function Slide7Voice() {
             <div>
               <p
                 className="text-[3vw] font-bold text-[#F5F3FF] leading-none"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 طموح
               </p>
@@ -46,7 +46,7 @@ export default function Slide7Voice() {
             <div>
               <p
                 className="text-[3vw] font-bold text-[#F5F3FF] leading-none"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 حديث
               </p>
@@ -61,7 +61,7 @@ export default function Slide7Voice() {
             <div>
               <p
                 className="text-[3vw] font-bold text-[#F5F3FF] leading-none"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 أصيل
               </p>
@@ -76,7 +76,7 @@ export default function Slide7Voice() {
             <div>
               <p
                 className="text-[3vw] font-bold text-[#F5F3FF] leading-none"
-                style={{ fontFamily: "Cairo, sans-serif" }}
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
               >
                 ملهم
               </p>
@@ -89,15 +89,45 @@ export default function Slide7Voice() {
           <div className="flex gap-[3vw] mt-[1vh]">
             <div className="flex-1">
               <p className="font-body text-[1.5vw] text-[#8B57E0] tracking-widest mb-[1vh]">WE SAY</p>
-              <p className="font-body text-[1.6vw] text-[#F5F3FF]/70">مبادرة — Initiative</p>
-              <p className="font-body text-[1.6vw] text-[#F5F3FF]/70">قطاع الفضاء — Space Sector</p>
-              <p className="font-body text-[1.6vw] text-[#F5F3FF]/70">وصول — Access</p>
+              <p
+                className="text-[1.6vw] text-[#F5F3FF]/70"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                مبادرة — Initiative
+              </p>
+              <p
+                className="text-[1.6vw] text-[#F5F3FF]/70"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                قطاع الفضاء — Space Sector
+              </p>
+              <p
+                className="text-[1.6vw] text-[#F5F3FF]/70"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                وصول — Access
+              </p>
             </div>
             <div className="flex-1">
               <p className="font-body text-[1.5vw] text-[#6B6880] tracking-widest mb-[1vh]">WE AVOID</p>
-              <p className="font-body text-[1.6vw] text-[#6B6880]/70 line-through">مجرد مجتمع</p>
-              <p className="font-body text-[1.6vw] text-[#6B6880]/70 line-through">مرحلة مبكرة</p>
-              <p className="font-body text-[1.6vw] text-[#6B6880]/70 line-through">هواة</p>
+              <p
+                className="text-[1.6vw] text-[#6B6880]/70 line-through"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                مجرد مجتمع
+              </p>
+              <p
+                className="text-[1.6vw] text-[#6B6880]/70 line-through"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                مرحلة مبكرة
+              </p>
+              <p
+                className="text-[1.6vw] text-[#6B6880]/70 line-through"
+                style={{ fontFamily: "SaudiFont, sans-serif" }}
+              >
+                هواة
+              </p>
             </div>
           </div>
         </div>

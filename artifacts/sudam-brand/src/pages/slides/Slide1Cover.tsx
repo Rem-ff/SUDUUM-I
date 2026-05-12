@@ -6,41 +6,67 @@ export default function Slide1Cover() {
       <img
         src={`${base}cover-space.png`}
         crossOrigin="anonymous"
-        className="absolute inset-0 w-full h-full object-cover opacity-70"
+        className="absolute inset-0 w-full h-full object-cover opacity-65"
         alt=""
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0C0B14] via-[#0C0B14]/55 to-[#0C0B14]/20" />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0C0B14]/60 via-transparent to-transparent" />
-
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0C0B14] via-[#0C0B14]/55 to-[#0C0B14]/15" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0C0B14]/50 via-transparent to-transparent" />
       <div className="absolute top-[6vh] left-[6vw] w-[50vw] h-[50vh] bg-[#8B57E0]/10 rounded-full blur-[10vw] pointer-events-none" />
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
-        <p className="font-body text-[1.5vw] text-[#8B57E0] tracking-[0.6em] uppercase mb-[3vh]">✦ Saudi Space Initiative ✦</p>
+        {/* Orbital SVG Logo */}
+        <svg
+          viewBox="0 0 400 160"
+          className="w-[42vw]"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-label="SUDUUM orbital logo"
+        >
+          <g transform="rotate(-8, 200, 78)">
+            <ellipse cx="200" cy="78" rx="192" ry="57" stroke="#8B57E0" strokeWidth="1.5"/>
+            <line x1="392" y1="71" x2="392" y2="85" stroke="#C4A8F0" strokeWidth="1.5"/>
+            <line x1="385" y1="78" x2="399" y2="78" stroke="#C4A8F0" strokeWidth="1.5"/>
+            <circle cx="392" cy="78" r="3.5" fill="#8B57E0"/>
+          </g>
+          <text x="200" y="92" textAnchor="middle" fill="#F5F3FF" fontFamily="Syne,sans-serif" fontWeight="800" fontSize="50" letterSpacing="5">SUDUUM</text>
+          <circle cx="55" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="66" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="77" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="100" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="111" cy="122" r="2.5" fill="#8B57E0"/>
+          <rect x="119.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+          <rect x="151.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+          <circle cx="174" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="185" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="208" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="219" cy="122" r="2.5" fill="#8B57E0"/>
+          <rect x="227.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+          <circle cx="262" cy="122" r="2.5" fill="#8B57E0"/>
+          <circle cx="273" cy="122" r="2.5" fill="#8B57E0"/>
+          <rect x="281.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+          <rect x="313.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+          <rect x="333.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
+        </svg>
 
+        {/* Arabic name below */}
         <h1
-          className="font-arabic text-[11vw] font-bold text-[#F5F3FF] leading-none"
-          style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+          className="text-[7vw] font-bold text-[#F5F3FF] leading-none mt-[2vh]"
+          style={{ fontFamily: "SaudiFont, sans-serif" }}
         >
           سُدم
         </h1>
 
-        <h2 className="font-display text-[3.8vw] font-bold text-[#C4A8F0] tracking-[0.4em] mt-[0.5vh]">
-          SUDUUM
-        </h2>
-
-        <div className="w-[18vw] h-px bg-gradient-to-r from-transparent via-[#8B57E0] to-transparent my-[4vh]" />
+        <div className="w-[18vw] h-px bg-gradient-to-r from-transparent via-[#8B57E0] to-transparent my-[3.5vh]" />
 
         <p
-          className="font-arabic text-[2vw] text-[#F5F3FF]/75 tracking-wide"
-          style={{ fontFamily: "Cairo, sans-serif", direction: "rtl" }}
+          className="text-[2vw] text-[#F5F3FF]/75 tracking-wide"
+          style={{ fontFamily: "SaudiFont, sans-serif" }}
         >
           دليل الهوية البصرية
         </p>
-        <p className="font-body text-[1.5vw] text-[#6B6880] tracking-[0.3em] mt-[1.2vh]">
-          VISUAL IDENTITY GUIDE
+        <p className="font-body text-[1.5vw] text-[#6B6880] tracking-[0.3em] mt-[1vh]">
+          VISUAL IDENTITY GUIDE · 2026
         </p>
-
-        <p className="font-body text-[1.5vw] text-[#6B6880]/60 mt-[5vh]">2026</p>
       </div>
 
       <div className="absolute bottom-[3vh] left-0 right-0 flex justify-center">
