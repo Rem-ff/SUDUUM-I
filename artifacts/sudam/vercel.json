@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter @workspace/sudam run build",
+  "outputDirectory": "artifacts/sudam/dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
