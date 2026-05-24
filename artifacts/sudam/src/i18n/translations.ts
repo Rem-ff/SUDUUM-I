@@ -57,7 +57,7 @@ export const translations = {
     messagePlaceholder: "كيف يمكننا مساعدتك؟",
     sendBtn: "إرسال",
     contactXHandle: "@Suduumspace",
-    contactEmail: "hello@sudam.space",
+    contactEmail: "suduum.space@gmail.com",
 
     // Footer
     footerTitle: "سُدم",
@@ -122,7 +122,7 @@ export const translations = {
     messagePlaceholder: "How can we help?",
     sendBtn: "Send Message",
     contactXHandle: "@Suduumspace",
-    contactEmail: "hello@sudam.space",
+    contactEmail: "suduum.space@gmail.com",
 
     // Footer
     footerTitle: "SUDUUM",
