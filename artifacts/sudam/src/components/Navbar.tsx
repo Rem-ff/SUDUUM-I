@@ -3,37 +3,6 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useState, useEffect } from "react";
 
-function OrbitalLogoMark() {
-  return (
-    <svg
-      viewBox="0 0 220 55"
-      className="h-11 w-auto"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-label="SUDUUM"
-      style={{ filter: "drop-shadow(0 0 8px rgba(139,87,224,0.55))" }}
-    >
-      <g transform="rotate(-8, 110, 26)">
-        <ellipse cx="110" cy="26" rx="106" ry="21" stroke="#C4A8F0" strokeWidth="1.8"/>
-        <line x1="216" y1="19" x2="216" y2="33" stroke="#C4A8F0" strokeWidth="2"/>
-        <line x1="209" y1="26" x2="223" y2="26" stroke="#C4A8F0" strokeWidth="2"/>
-        <circle cx="216" cy="26" r="3" fill="#C4A8F0"/>
-      </g>
-      <text
-        x="110"
-        y="33"
-        textAnchor="middle"
-        fill="#FFFFFF"
-        fontFamily="Syne, system-ui, sans-serif"
-        fontWeight="800"
-        fontSize="22"
-        letterSpacing="3"
-      >
-        SUDUUM
-      </text>
-    </svg>
-  );
-}
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -70,7 +39,9 @@ export function Navbar() {
               <span className="text-primary text-xl">✦</span> سُدم
             </span>
           ) : (
-            <OrbitalLogoMark />
+            <span className="text-2xl font-bold tracking-[0.15em] flex items-center gap-2 text-white">
+              <span className="text-primary text-xl">✦</span> SUDUUM
+            </span>
           )}
         </a>
 
