@@ -220,7 +220,7 @@ export default function Home() {
                   </div>
                   <span className="text-lg">{t('whatsapp')}</span>
                 </a>
-                <a href="mailto:hello@sudam.space" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-email">
+                <a href="mailto:suduum.space@gmail.com" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-email">
                   <div className={`w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center group-hover:border-primary/50 ${isAr ? 'ml-4' : 'mr-4'}`}>
                     <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                   </div>
