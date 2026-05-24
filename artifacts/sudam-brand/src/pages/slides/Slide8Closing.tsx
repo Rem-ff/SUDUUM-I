@@ -65,7 +65,7 @@ export default function Slide8Closing() {
         <div className="flex items-center gap-[3vw] mt-[5vh]">
           <p className="font-body text-[1.6vw] text-[#8B57E0]">suduum.space</p>
           <span className="text-[#8B57E0]/40 text-[1.5vw]">|</span>
-          <p className="font-body text-[1.6vw] text-[#6B6880]">@sudam_space</p>
+          <p className="font-body text-[1.6vw] text-[#6B6880]">@Suduumspace</p>
         </div>
       </div>
 

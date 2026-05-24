@@ -60,7 +60,7 @@ export default function Home() {
               <a href="#contact">{t('joinBtn')}</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-lg px-8 py-6 rounded-full border-muted-foreground/30 hover:bg-muted/50" data-testid="btn-follow-x">
-              <a href="https://x.com/sudam_space" target="_blank" rel="noreferrer" className="flex items-center">
+              <a href="https://x.com/Suduumspace" target="_blank" rel="noreferrer" className="flex items-center">
                 <SiX className={isAr ? "ml-2" : "mr-2"} /> {t('followBtn')}
               </a>
             </Button>
@@ -208,7 +208,7 @@ export default function Home() {
               </p>
               
               <div className="space-y-6">
-                <a href="https://x.com/sudam_space" target="_blank" rel="noreferrer" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-x">
+                <a href="https://x.com/Suduumspace" target="_blank" rel="noreferrer" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-x">
                   <div className={`w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center group-hover:border-primary/50 ${isAr ? 'ml-4' : 'mr-4'}`}>
                     <SiX className="w-5 h-5 text-white" />
                   </div>

@@ -56,7 +56,7 @@ export const translations = {
     messageLabel: "الرسالة",
     messagePlaceholder: "كيف يمكننا مساعدتك؟",
     sendBtn: "إرسال",
-    contactXHandle: "@sudam_space",
+    contactXHandle: "@Suduumspace",
     contactEmail: "hello@sudam.space",
 
     // Footer
@@ -121,7 +121,7 @@ export const translations = {
     messageLabel: "Message",
     messagePlaceholder: "How can we help?",
     sendBtn: "Send Message",
-    contactXHandle: "@sudam_space",
+    contactXHandle: "@Suduumspace",
     contactEmail: "hello@sudam.space",
 
     // Footer
