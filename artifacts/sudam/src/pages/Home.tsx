@@ -44,41 +44,9 @@ export default function Home() {
               </span>
             </div>
           ) : (
-            <div className="mb-6 flex flex-col items-center" data-testid="text-hero-title">
-              {/* Orbital SUDUUM logo */}
-              <svg
-                viewBox="0 0 400 160"
-                className="w-[min(72vw,520px)]"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-label="SUDUUM"
-              >
-                <g transform="rotate(-8, 200, 78)">
-                  <ellipse cx="200" cy="78" rx="192" ry="57" stroke="#8B57E0" strokeWidth="1.5"/>
-                  <line x1="392" y1="71" x2="392" y2="85" stroke="#C4A8F0" strokeWidth="1.5"/>
-                  <line x1="385" y1="78" x2="399" y2="78" stroke="#C4A8F0" strokeWidth="1.5"/>
-                  <circle cx="392" cy="78" r="3.5" fill="#8B57E0"/>
-                </g>
-                <text x="200" y="92" textAnchor="middle" fill="#F5F3FF" fontFamily="Syne,system-ui,sans-serif" fontWeight="800" fontSize="50" letterSpacing="5">SUDUUM</text>
-                <circle cx="55" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="66" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="77" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="100" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="111" cy="122" r="2.5" fill="#8B57E0"/>
-                <rect x="119.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-                <rect x="151.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-                <circle cx="174" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="185" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="208" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="219" cy="122" r="2.5" fill="#8B57E0"/>
-                <rect x="227.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-                <circle cx="262" cy="122" r="2.5" fill="#8B57E0"/>
-                <circle cx="273" cy="122" r="2.5" fill="#8B57E0"/>
-                <rect x="281.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-                <rect x="313.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-                <rect x="333.5" y="119.5" width="14" height="5" rx="2.5" fill="#8B57E0"/>
-              </svg>
-            </div>
+            <h1 className="text-6xl md:text-8xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-white to-muted-foreground mb-6 flex items-center gap-4" data-testid="text-hero-title">
+              <span className="text-primary text-4xl">✦</span> {t('title')}
+            </h1>
           )}
           
           <h2 className="text-xl md:text-2xl font-medium text-primary mb-6 max-w-2xl leading-relaxed" data-testid="text-hero-subtitle">
