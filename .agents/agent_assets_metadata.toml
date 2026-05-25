@@ -11,3 +11,15 @@ id = "zPtpxbWji9A-vJXfOwkYG"
 uri = "file://.local/outputs/Saudi-Space-Hub.pdf"
 type = "pdf"
 title = "Saudi Space Hub.pdf"
+
+[[outputs]]
+id = "6iwwiDIyv_AnUutF0owvQ"
+uri = "file://screenshots/sudam-bg-full.jpg"
+type = "image"
+title = "الخلفية الكاملة مع الـ gradients والتوهج (1920×1080)"
+
+[[outputs]]
+id = "kav-2SHyYd0Hliz-bJT2S"
+uri = "file://artifacts/sudam-brand/public/cover-space.png"
+type = "image"
+title = "صورة الفضاء الأصلية (cover-space.png)"
