@@ -65,3 +65,9 @@ id = "WVkCTFSoWlRamc6J5NfKD"
 uri = "file://screenshots/bg-slide8.jpg"
 type = "image"
 title = "خلفية الشريحة 8 — gradient قطري + نجمة ✦"
+
+[[outputs]]
+id = "grqSz1sNf3UQToXMIWnmB"
+uri = "file://screenshots/twitter-banner.jpg"
+type = "image"
+title = "SUDUUM — Twitter Header Banner (1500×500)"
