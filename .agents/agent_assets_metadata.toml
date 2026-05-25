@@ -23,3 +23,45 @@ id = "kav-2SHyYd0Hliz-bJT2S"
 uri = "file://artifacts/sudam-brand/public/cover-space.png"
 type = "image"
 title = "صورة الفضاء الأصلية (cover-space.png)"
+
+[[outputs]]
+id = "e42Wp48fO92aEvbg_D7kk"
+uri = "file://screenshots/bg-slide2.jpg"
+type = "image"
+title = "خلفية الشريحة 2 — توهج يمين أسفل + يسار أعلى"
+
+[[outputs]]
+id = "im8lmeXwR3shQpDzMu2Of"
+uri = "file://screenshots/bg-slide3.jpg"
+type = "image"
+title = "خلفية الشريحة 3 — توهج مركزي"
+
+[[outputs]]
+id = "VIYWF5UcJQAiHdaUyR2g8"
+uri = "file://screenshots/bg-slide4.jpg"
+type = "image"
+title = "خلفية الشريحة 4 — توهج يسار أعلى"
+
+[[outputs]]
+id = "mLs3xQvLxY9W2EfUhj_zF"
+uri = "file://screenshots/bg-slide5.jpg"
+type = "image"
+title = "خلفية الشريحة 5 — توهج يمين أسفل"
+
+[[outputs]]
+id = "jKu9xSpqUt8JdCtlB_o7Z"
+uri = "file://screenshots/bg-slide6.jpg"
+type = "image"
+title = "خلفية الشريحة 6 — توهج يمين أعلى"
+
+[[outputs]]
+id = "gEW7kcRK9KYxR1dV_xrZR"
+uri = "file://screenshots/bg-slide7.jpg"
+type = "image"
+title = "خلفية الشريحة 7 — توهج مركزي يسار"
+
+[[outputs]]
+id = "WVkCTFSoWlRamc6J5NfKD"
+uri = "file://screenshots/bg-slide8.jpg"
+type = "image"
+title = "خلفية الشريحة 8 — gradient قطري + نجمة ✦"
