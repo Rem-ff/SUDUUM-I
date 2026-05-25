@@ -56,6 +56,8 @@ export const translations = {
     messageLabel: "الرسالة",
     messagePlaceholder: "كيف يمكننا مساعدتك؟",
     sendBtn: "إرسال",
+    sendSuccess: "تم إرسال رسالتك! سنتواصل معك قريباً.",
+    sendError: "يرجى ملء جميع الحقول قبل الإرسال.",
     contactXHandle: "@Suduumspace",
     contactEmail: "suduum.space@gmail.com",
 
@@ -121,6 +123,8 @@ export const translations = {
     messageLabel: "Message",
     messagePlaceholder: "How can we help?",
     sendBtn: "Send Message",
+    sendSuccess: "Your message has been sent! We'll be in touch soon.",
+    sendError: "Please fill in all fields before sending.",
     contactXHandle: "@Suduumspace",
     contactEmail: "suduum.space@gmail.com",
 

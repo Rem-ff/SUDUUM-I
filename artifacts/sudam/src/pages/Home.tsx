@@ -7,6 +7,63 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useState } from "react";
+
+function ContactForm({ t, isAr }: { t: (key: string) => string; isAr: boolean }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!name.trim() || !email.trim() || !message.trim()) {
+      setStatus("error");
+      return;
+    }
+    const subject = encodeURIComponent(isAr ? `رسالة من ${name}` : `Message from ${name}`);
+    const body = encodeURIComponent(`${isAr ? "الاسم" : "Name"}: ${name}\n${isAr ? "البريد" : "Email"}: ${email}\n\n${message}`);
+    window.open(`mailto:suduum.space@gmail.com?subject=${subject}&body=${body}`, "_blank");
+    setStatus("success");
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: isAr ? -30 : 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      className="bg-card p-8 rounded-3xl border border-border relative overflow-hidden"
+    >
+      <div className="absolute inset-0 bg-primary/5 blur-2xl pointer-events-none" />
+      <form className="space-y-6 relative z-10" onSubmit={handleSubmit}>
+        <div>
+          <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-2">{t('nameLabel')}</label>
+          <Input id="name" value={name} onChange={(e) => { setName(e.target.value); setStatus("idle"); }} placeholder={t('namePlaceholder')} className="bg-background border-border" data-testid="input-contact-name" />
+        </div>
+        <div>
+          <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">{t('emailLabel')}</label>
+          <Input id="email" type="email" value={email} onChange={(e) => { setEmail(e.target.value); setStatus("idle"); }} placeholder={t('emailPlaceholder')} className="bg-background border-border text-left dir-ltr" data-testid="input-contact-email" />
+        </div>
+        <div>
+          <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-2">{t('messageLabel')}</label>
+          <Textarea id="message" value={message} onChange={(e) => { setMessage(e.target.value); setStatus("idle"); }} placeholder={t('messagePlaceholder')} className="bg-background border-border min-h-[120px]" data-testid="input-contact-message" />
+        </div>
+        {status === "success" && (
+          <p className="text-green-400 text-sm text-center">{t('sendSuccess')}</p>
+        )}
+        {status === "error" && (
+          <p className="text-red-400 text-sm text-center">{t('sendError')}</p>
+        )}
+        <Button type="submit" className="w-full" data-testid="btn-contact-submit">
+          {t('sendBtn')}
+        </Button>
+      </form>
+    </motion.div>
+  );
+}
 
 export default function Home() {
   const { t, lang, dir } = useLanguage();
@@ -229,31 +286,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-            <motion.div
-              initial={{ opacity: 0, x: isAr ? -30 : 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="bg-card p-8 rounded-3xl border border-border relative overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-primary/5 blur-2xl pointer-events-none" />
-              <form className="space-y-6 relative z-10" onSubmit={(e) => e.preventDefault()}>
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-muted-foreground mb-2">{t('nameLabel')}</label>
-                  <Input id="name" placeholder={t('namePlaceholder')} className="bg-background border-border" data-testid="input-contact-name" />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">{t('emailLabel')}</label>
-                  <Input id="email" type="email" placeholder={t('emailPlaceholder')} className="bg-background border-border text-left dir-ltr" data-testid="input-contact-email" />
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-muted-foreground mb-2">{t('messageLabel')}</label>
-                  <Textarea id="message" placeholder={t('messagePlaceholder')} className="bg-background border-border min-h-[120px]" data-testid="input-contact-message" />
-                </div>
-                <Button type="submit" className="w-full" data-testid="btn-contact-submit">
-                  {t('sendBtn')}
-                </Button>
-              </form>
-            </motion.div>
+            <ContactForm t={t} isAr={isAr} />
           </div>
         </div>
       </section>
