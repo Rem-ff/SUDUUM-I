@@ -214,7 +214,7 @@ export default function Home() {
                   </div>
                   <span className="text-lg">{t('contactXHandle')}</span>
                 </a>
-                <a href="#" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-whatsapp">
+                <a href="https://chat.whatsapp.com/EBfTQYgNtXXB8Axq9BPZd6" target="_blank" rel="noreferrer" className="flex items-center text-muted-foreground hover:text-primary transition-colors group" data-testid="link-contact-whatsapp">
                   <div className={`w-12 h-12 rounded-full bg-card border border-border flex items-center justify-center group-hover:border-primary/50 ${isAr ? 'ml-4' : 'mr-4'}`}>
                     <SiWhatsapp className="w-6 h-6 text-white" />
                   </div>
