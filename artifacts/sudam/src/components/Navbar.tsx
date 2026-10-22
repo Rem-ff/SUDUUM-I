@@ -1,88 +1,84 @@
-import { Menu, Globe } from "lucide-react";
+import { useState } from "react";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { useState, useEffect } from "react";
+import { useJoinModal } from "@/contexts/JoinModalContext";
 
+const navigation = {
+  ar: [
+    ["الرئيسية", "#hero"], ["ماذا نبني", "#build"], ["البرامج", "#programs"],
+    ["المشاريع", "#projects"], ["الإشارات", "#signals"], ["عن سُدم", "#about"],
+  ],
+  en: [
+    ["Home", "#hero"], ["What We Build", "#build"], ["Programs", "#programs"],
+    ["Projects", "#projects"], ["Signals", "#signals"], ["About", "#about"],
+  ],
+};
 
 export function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
-  const { lang, setLang, t, dir } = useLanguage();
-  const isAr = lang === 'ar';
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const toggleLanguage = () => {
-    setLang(lang === "ar" ? "en" : "ar");
-  };
+  const { lang, setLang } = useLanguage();
+  const { openModal } = useJoinModal();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const isArabic = lang === "ar";
+  const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/85 backdrop-blur-md border-b border-border py-4" : "bg-transparent py-6"
-      }`}
-      dir={dir}
-    >
-      <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a
-          href="#hero"
-          className="flex items-center gap-2"
-          data-testid="link-logo"
-        >
-          {isAr ? (
-            <span className="text-2xl font-bold tracking-widest font-['SaudiFont'] flex items-center gap-2 text-white">
-              <span className="text-primary text-xl">✦</span> سُدم
-            </span>
-          ) : (
-            <span className="text-2xl font-bold tracking-[0.15em] flex items-center gap-2 text-white">
-              <span className="text-primary text-xl">✦</span> SUDUUM
-            </span>
-          )}
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-background/85 backdrop-blur-xl">
+      <div className="mx-auto flex h-[76px] max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:px-10">
+        <a href="#hero" onClick={closeMenu} className="flex items-center gap-3" aria-label="SUDUUM home">
+          <span className="relative grid h-8 w-8 place-items-center">
+            <span className="absolute h-[2px] w-8 rotate-[28deg] rounded-full bg-primary" />
+            <span className="absolute h-[2px] w-8 -rotate-[28deg] rounded-full bg-primary/55" />
+          </span>
+          <span className="text-xl font-semibold tracking-[0.18em] text-foreground">SUDUUM</span>
         </a>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium">
-          <a href="#hero" className="text-white/80 hover:text-white transition-colors" data-testid="link-home">{t('homeNav')}</a>
-          <a href="#about" className="text-white/80 hover:text-white transition-colors" data-testid="link-about">{t('about')}</a>
-          <a href="#vision" className="text-white/80 hover:text-white transition-colors" data-testid="link-vision">{t('vision')}</a>
-          <a href="#what-we-do" className="text-white/80 hover:text-white transition-colors" data-testid="link-what-we-do">{t('whatWeDo')}</a>
-          <a href="#contact" className="text-white/80 hover:text-white transition-colors" data-testid="link-contact">{t('contact')}</a>
+        <nav className="hidden items-center gap-5 xl:flex" aria-label="Primary navigation">
+          {navigation[lang].map(([label, href]) => (
+            <a key={href} href={href} className="text-[12px] font-medium text-muted-foreground transition-colors hover:text-foreground">{label}</a>
+          ))}
+        </nav>
 
-          <Button asChild size="sm" className="rounded-full px-5 text-sm" data-testid="btn-nav-join">
-            <a href="#contact">{t('joinBtn')}</a>
+        <div className="hidden items-center gap-2 lg:flex">
+          <button type="button" onClick={() => setLang(isArabic ? "en" : "ar")} className="h-9 px-2 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground">
+            {isArabic ? "EN" : "عربي"}
+          </button>
+          <Button variant="ghost" size="sm" onClick={openModal} className="border border-white/15 text-xs">
+            {isArabic ? "التقديم / الانضمام" : "Apply / Join"}
           </Button>
-
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={toggleLanguage}
-            className={`rounded-full px-4 border-white/25 text-white/85 hover:bg-white/10 hover:text-white ${!isAr ? "font-['SaudiFont'] text-base" : ''}`}
-            data-testid="btn-lang-toggle"
-          >
-            <Globe className="w-4 h-4 mr-2 rtl:ml-2 rtl:mr-0" />
-            {t('langToggle')}
+          <Button asChild size="sm" className="group text-xs">
+            <a href="mailto:suduum.space@gmail.com?subject=Work%20with%20SUDUUM">
+              {isArabic ? "اعمل مع سُدم" : "Work with SUDUUM"}
+              <ArrowUpRight className="ms-1 h-3.5 w-3.5 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+            </a>
           </Button>
         </div>
 
-        <div className="md:hidden flex items-center gap-4">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={toggleLanguage}
-            className="rounded-full px-3 border-white/25 text-white/85 hover:bg-white/10"
-            data-testid="btn-lang-toggle-mobile"
-          >
-            <Globe className="w-4 h-4" />
-          </Button>
-          <Button variant="ghost" size="icon" data-testid="btn-mobile-menu">
-            <Menu className="w-6 h-6 text-white" />
-          </Button>
-        </div>
+        <button type="button" onClick={() => setMenuOpen((open) => !open)} className="grid h-10 w-10 place-items-center text-foreground lg:hidden" aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen}>
+          {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+        </button>
       </div>
-    </nav>
+
+      {menuOpen && (
+        <div className="border-t border-white/10 bg-background px-5 pb-6 pt-4 lg:hidden">
+          <nav className="grid gap-1" aria-label="Mobile navigation">
+            {navigation[lang].map(([label, href]) => (
+              <a key={href} href={href} onClick={closeMenu} className="border-b border-white/[0.07] py-3 text-sm text-foreground">{label}</a>
+            ))}
+          </nav>
+          <div className="mt-5 grid gap-2 sm:grid-cols-2">
+            <Button variant="outline" onClick={() => { closeMenu(); openModal(); }}>
+              {isArabic ? "التقديم / الانضمام" : "Apply / Join"}
+            </Button>
+            <Button asChild><a href="mailto:suduum.space@gmail.com?subject=Work%20with%20SUDUUM">{isArabic ? "اعمل مع سُدم" : "Work with SUDUUM"}</a></Button>
+          </div>
+          <button type="button" onClick={() => { setLang(isArabic ? "en" : "ar"); closeMenu(); }} className="mt-4 text-xs text-muted-foreground">
+            {isArabic ? "English" : "العربية"}
+          </button>
+        </div>
+      )}
+    </header>
   );
 }
+
+export default Navbar;
